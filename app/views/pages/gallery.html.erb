@@ -1,0 +1,13 @@
+<h1>The Trump Gallery</h1>
+
+<div class="container">
+<div class="flex-container">
+<% @array.each do |item| %>
+	<div class="box">
+    <p><%= item[:title] %></p>
+    <img src="<%= item[:url]%>" class="flex-img text-center">
+    </div>
+    <% end %>
+  </div>
+
+</div>

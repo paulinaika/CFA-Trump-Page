@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ body {
+ 	background-color: #000000;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 13px;
+  color: #ffffff;
+ }
+
+ h1{
+   font-weight: 150;
+   text-align: center;
+ }
+
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+ 	font-weight: 150;
+ }
+
+p {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+
+ .regular-header {
+ 	font-weight: 400;
+ }
+
+ .upcased {
+ 	text-transform: uppercase;
+ }
+
+ .header-section {
+ 	padding: 120px 0;
+ }
+
+ .white-text {
+ 	color: white;
+ }
+
+ .big-header {
+ 	font-size: 60px;
+ }
+
+
+ .navbar-default {
+ 	background: transparent;
+ 	border-color: transparent;
+  align-items: center;
+
+ }
+
+ .navbar-logo {
+ 	width: 50px;
+ 	height: 30px;
+ 	margin: -5px;
+ }
+
+
+
+ .flex-container {
+ 	display: flex;
+ 	justify-content: space-between;;
+   flex-wrap: wrap;
+   margin: 20px;
+ }
+
+
+ .box {
+   height: 200px;
+   overflow: hidden;
+ 	width: 300px;
+  text-align: center;
+ }
+
+ .flex-img {
+   width: 100%;
+   height: 100%;
+   // height: 200px;
+ }
+
+.text-center {
+  align-items: center;
+}
+
+.strong {
+  font-weight: 700px;
+}
+
+.description {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
